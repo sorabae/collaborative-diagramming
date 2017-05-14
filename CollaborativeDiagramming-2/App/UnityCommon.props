@@ -1,9 +1,0 @@
-﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-    <PropertyGroup>
-        <UnityWSASolutionName>CollaborativeDiagramming-2</UnityWSASolutionName>
-        <UnityWSASolutionDir>C:\Users\sorabae\Documents\CollaborativeDiagramming-2\App\</UnityWSASolutionDir>
-        <UnityProjectDir>C:\Users\sorabae\Documents\CollaborativeDiagramming-2\</UnityProjectDir>
-        <UnityWSAPlayerDir>C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
-        <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
-    </PropertyGroup>
-</Project>
