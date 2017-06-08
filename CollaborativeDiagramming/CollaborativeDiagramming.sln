@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollaborativeDiagramming", "CollaborativeDiagramming.csproj", "{955E16B4-A7D0-1351-F3CD-3DF480B535E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollaborativeDiagramming.Editor", "CollaborativeDiagramming.Editor.csproj", "{3E66DE1D-4702-8FB8-711E-933354DAF46C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{955E16B4-A7D0-1351-F3CD-3DF480B535E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{955E16B4-A7D0-1351-F3CD-3DF480B535E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{955E16B4-A7D0-1351-F3CD-3DF480B535E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E66DE1D-4702-8FB8-711E-933354DAF46C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E66DE1D-4702-8FB8-711E-933354DAF46C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E66DE1D-4702-8FB8-711E-933354DAF46C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E66DE1D-4702-8FB8-711E-933354DAF46C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

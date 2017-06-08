@@ -1,4 +1,0 @@
-C:\Users\sorabae\Documents\CollaborativeDiagramming\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
-C:\Users\sorabae\Documents\CollaborativeDiagramming\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
-C:\Users\sorabae\Documents\CollaborativeDiagramming\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
-C:\Users\sorabae\Documents\CollaborativeDiagramming\App\ModelExplorer\ModelExplorer.csproj;x86

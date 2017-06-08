@@ -41,6 +41,7 @@ public class PlusAction : MonoBehaviour
     {
         GameObject parentComponent = transform.parent.gameObject;
         connectedObject = Instantiate(parentComponent, parentComponent.transform.parent);
+        connectedObject.transform.FindChild("Text").GetComponent<TextMesh>().text = "";
         connectedObject.transform.position = parentComponent.transform.position + new Vector3(0.5f, 0.25f);
 
         GameObject line = new GameObject();

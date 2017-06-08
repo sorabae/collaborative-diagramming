@@ -16,33 +16,38 @@ public class Interactible : MonoBehaviour
         {
             gameObject.AddComponent<BoxCollider>();
         }
-
-        foreach (Transform child in transform)
-        {
-            child.gameObject.SetActive(false);
-        }
+        transform.FindChild("Sphere").gameObject.SetActive(false);
+        transform.FindChild("AddTextButton").gameObject.SetActive(false);
+        //foreach (Transform child in transform)
+        //{
+        //    child.gameObject.SetActive(false);
+        //}
     }
 
     void GazeEntered()
     {
-        foreach (Transform child in transform)
+        /*foreach (Transform child in transform)
         {
             if (child.name == "Sphere")
             {
                 child.gameObject.SetActive(true);
             }
-        }
+        }*/
+        transform.FindChild("Sphere").gameObject.SetActive(true);
+        transform.FindChild("AddTextButton").gameObject.SetActive(true);
     }
 
     void GazeExited()
     {
-        foreach (Transform child in transform)
+        /*foreach (Transform child in transform)
         {
             if (child.name == "Sphere")
             {
                 child.gameObject.SetActive(false);
             }
-        }
+        }*/
+        transform.FindChild("Sphere").gameObject.SetActive(false);
+        transform.FindChild("AddTextButton").gameObject.SetActive(false);
     }
 
     void OnSelect()
