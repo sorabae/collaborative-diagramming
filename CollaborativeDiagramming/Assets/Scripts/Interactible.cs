@@ -16,8 +16,8 @@ public class Interactible : MonoBehaviour
         {
             gameObject.AddComponent<BoxCollider>();
         }
-        transform.FindChild("Sphere").gameObject.SetActive(false);
-        transform.FindChild("AddTextButton").gameObject.SetActive(false);
+        transform.Find("CubeMenu").gameObject.SetActive(false);
+        transform.Find("AddTextButton").gameObject.SetActive(false);
         //foreach (Transform child in transform)
         //{
         //    child.gameObject.SetActive(false);
@@ -33,8 +33,8 @@ public class Interactible : MonoBehaviour
                 child.gameObject.SetActive(true);
             }
         }*/
-        transform.FindChild("Sphere").gameObject.SetActive(true);
-        transform.FindChild("AddTextButton").gameObject.SetActive(true);
+        transform.Find("CubeMenu").gameObject.SetActive(true);
+        transform.Find("AddTextButton").gameObject.SetActive(true);
     }
 
     void GazeExited()
@@ -46,8 +46,8 @@ public class Interactible : MonoBehaviour
                 child.gameObject.SetActive(false);
             }
         }*/
-        transform.FindChild("Sphere").gameObject.SetActive(false);
-        transform.FindChild("AddTextButton").gameObject.SetActive(false);
+        transform.Find("CubeMenu").gameObject.SetActive(false);
+        transform.Find("AddTextButton").gameObject.SetActive(false);
     }
 
     void OnSelect()

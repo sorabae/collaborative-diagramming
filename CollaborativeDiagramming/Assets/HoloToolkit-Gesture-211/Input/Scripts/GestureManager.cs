@@ -24,26 +24,7 @@ namespace Academy.HoloToolkit.Unity
 
         void Awake()
         {
-            /* TODO: DEVELOPER CODING EXERCISE 2.b */
-
-            // 2.b: Instantiate the NavigationRecognizer.
-
-
-            // 2.b: Add Tap and NavigationX GestureSettings to the NavigationRecognizer's RecognizableGestures.
-
-
-
-            // 2.b: Register for the TappedEvent with the NavigationRecognizer_TappedEvent function.
-
-            // 2.b: Register for the NavigationStartedEvent with the NavigationRecognizer_NavigationStartedEvent function.
-
-            // 2.b: Register for the NavigationUpdatedEvent with the NavigationRecognizer_NavigationUpdatedEvent function.
-
-            // 2.b: Register for the NavigationCompletedEvent with the NavigationRecognizer_NavigationCompletedEvent function. 
-
-            // 2.b: Register for the NavigationCanceledEvent with the NavigationRecognizer_NavigationCanceledEvent function. 
-
-
+            
             // Instantiate the ManipulationRecognizer.
             ManipulationRecognizer = new GestureRecognizer();
 

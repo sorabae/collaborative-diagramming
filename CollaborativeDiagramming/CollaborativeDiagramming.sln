@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 2015
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollaborativeDiagramming", "CollaborativeDiagramming.csproj", "{955E16B4-A7D0-1351-F3CD-3DF480B535E0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollaborativeDiagramming.Editor", "CollaborativeDiagramming.Editor.csproj", "{3E66DE1D-4702-8FB8-711E-933354DAF46C}"

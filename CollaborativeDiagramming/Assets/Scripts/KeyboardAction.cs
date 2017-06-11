@@ -27,7 +27,7 @@ public class KeyboardAction : MonoBehaviour {
         Debug.Log("keyboardSet");
         KeyboardMain km = Resources.FindObjectsOfTypeAll<KeyboardMain>()[0];
         //km.gameObject.SetActive(true);
-        km.InputDisplay = transform.parent.FindChild("Text").gameObject;
+        km.InputDisplay = transform.parent.Find("Text").gameObject;
         km.OnStart(transform.parent);
         //keyboard = new TouchScreenKeyboard("Sample text that goes into the textbox", TouchScreenKeyboardType.Default, false, false, false, false, "sample prompting text that goes above the textbox");
     }
