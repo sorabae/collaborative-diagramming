@@ -11,6 +11,9 @@ public class CubeManager : MonoBehaviour {
     RaycastHit hitInfo;
     GestureRecognizer recognizer;
     public bool manipulating;
+    KeyboardAction keyboard;
+    RegisterBookmark bookmark;
+    PlusAction plus;
 
     // Use this for initialization
     void Start () {
@@ -63,18 +66,21 @@ public class CubeManager : MonoBehaviour {
         FocusedObject = hitInfo.collider.gameObject;
 
         
-        if (FocusedObject.transform.parent.name == "Cube")
+        if (FocusedObject == GameObject.Find("Front"))
         {
-            /*
-             Back side chosen -> Attachment
-             Bottom side chosen -> Bookmark
-             Front side chosen -> Change color
-             Left side chosen -> Draw edge
-             Right side chosen -> Remove node
-             Top side chosen -> Add node
-            */
-            FocusedObject.SendMessageUpwards(FocusedObject.name + "SideChosen");
-            manipulating = true;
+            keyboard = new KeyboardAction();
+            keyboard.OnSelect();
+        }
+
+        if (FocusedObject == GameObject.Find("Left"))
+        {
+            bookmark = new RegisterBookmark();
+            bookmark.OnSelect();
+        }
+        if(FocusedObject == GameObject.Find("Right"))
+        {
+            plus = new PlusAction();
+            plus.OnSelect();
         }
 
         else

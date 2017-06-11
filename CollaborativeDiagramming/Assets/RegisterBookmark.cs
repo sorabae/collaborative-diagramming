@@ -14,7 +14,7 @@ public class RegisterBookmark : MonoBehaviour {
 		
 	}
 
-    void OnSelect()
+   public void OnSelect()
     {
         GameObject tm = GameObject.Find("TargetManager");
         tm.SendMessage("RegisterBookmark", gameObject.transform.parent.gameObject);

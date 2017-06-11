@@ -21,6 +21,7 @@ namespace Academy.HoloToolkit.Unity
         public bool IsManipulating { get; private set; }
 
         public Vector3 ManipulationPosition { get; private set; }
+        public GameObject OverrideFocusedObject { get; internal set; }
 
         void Awake()
         {

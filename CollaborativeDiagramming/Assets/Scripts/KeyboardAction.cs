@@ -22,7 +22,7 @@ public class KeyboardAction : MonoBehaviour {
         }*/
     }
 
-    void OnSelect()
+    public void OnSelect()
     {
         Debug.Log("keyboardSet");
         KeyboardMain km = Resources.FindObjectsOfTypeAll<KeyboardMain>()[0];

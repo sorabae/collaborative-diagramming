@@ -37,7 +37,7 @@ public class PlusAction : MonoBehaviour
     }
 
     // Called by GazeGestureManager when the user performs a Select gesture
-    void OnSelect()
+    public void OnSelect()
     {
         GameObject parentComponent = transform.parent.gameObject;
         connectedObject = Instantiate(parentComponent, parentComponent.transform.parent);
